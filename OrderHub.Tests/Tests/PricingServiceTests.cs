@@ -29,7 +29,7 @@ public class PricingServiceTests
 
         // Act
         var result = await service.CalculatePriceAsync(
-            "GOLD",
+            OrderTier.Gold,
             orderLine);
 
         // Assert
